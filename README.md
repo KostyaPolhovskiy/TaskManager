@@ -56,6 +56,6 @@
    ```
 ## Руководство пользователя
    * Главная страница приложения представлена на скриншоте ниже:
-   ![Screenshot]https://github.com/KostyaPolhovskiy/TaskManager/tree/master/Server/screenshots/main.png "main page")
+   ![Screenshot]https://github.com/KostyaPolhovskiy/TaskManager/blob/master/screenshots/main.PNG "main page")
 
 
