@@ -1,0 +1,45 @@
+<div class="task-add">
+    <h3>Add Task</h3>
+    <div class="container">
+        <form #form="ngForm" (submit)="onSubmit(form)">
+            <input type="hidden" name="TaskId" [value]="service.formData.TaskId">
+
+            <label class="label-first">Title</label>
+            <input type="text" required name="Title" [(ngModel)]="service.formData.Title" placeholder="Enter title...">
+
+            <label>Deadline</label>
+            <input type="date" name="Deadline" [(ngModel)]="service.formData.Deadline" placeholder="Your deadline..">
+
+            <label>Info</label>
+            <textarea name="Description" required [(ngModel)]="service.formData.Description" placeholder="Write something.."></textarea>
+
+            <div class="addFileButton">
+                <input type="hidden" role="uploadcare-uploader" id="uploader" name="Files" [(ngModel)]="service.formData.Files" data-multiple="true" />
+            </div>
+
+            <label>Card color</label>
+            <select name="Color" [(ngModel)]="service.formData.Color">
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="grey">Grey</option>
+                  <option value="yellow">Yellow</option>
+          </select>
+
+            <div class=radio-button>
+                <input type="radio" id="test1" name="TaskStatus" [(ngModel)]="service.formData.TaskStatus" value="In Planning">
+                <label for="test1" class="radio-label">In Planning</label>
+            </div>
+            <div class="radio-button">
+                <input type="radio" id="test2" name="TaskStatus" [(ngModel)]="service.formData.TaskStatus" value="Started">
+                <label for="test2" class="radio-label">Started</label>
+            </div>
+            <div class="radio-button">
+                <input type="radio" id="test3" name="TaskStatus" [(ngModel)]="service.formData.TaskStatus" value="Completed">
+                <label for="test3" class="radio-label">Completed</label>
+            </div>
+            <button animateNewTask class="addButton" [disabled]="form.invalid" type="submit">Add Task</button>
+        </form>
+    </div>
+
+</div>

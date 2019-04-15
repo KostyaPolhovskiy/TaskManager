@@ -1,0 +1,40 @@
+<div class="task-container">
+    <div editTask *ngFor="let task of service.list" id="{{task.TaskId}}" (click)="editTask(task, $event)" class="task {{task.Color}} ">
+
+        <div class="divTitle">
+            <h3>
+                {{task.Title}}
+            </h3>
+        </div>
+
+        <button animateDelete class="divButtonDelete" id="buttonDeleteTask" (click)="deleteTask(task.TaskId)"><i class="fas fa-lg fa-times-circle"></i></button>
+
+        <div class="divDescription">
+            <h4>
+                {{task.Description}}
+            </h4>
+        </div>
+
+        <div *ngIf="notDefaultFiles(task.Files)" class="attachements">
+            <a href="{{task.Files}}" target="_blank">Attachements</a>
+        </div>
+
+        <div class="taskStatus">
+            <h5>
+                {{task.TaskStatus}}
+            </h5>
+        </div>
+
+        <div *ngIf="notDefaultDate(task.Deadline)" class="deadline">
+            <h5>
+                Deadline {{parseDate(task.Deadline)}}
+            </h5>
+        </div>
+
+        <div class="createdDate">
+            <h5>
+                Created at {{parseDate(task.CreatedDate)}}
+            </h5>
+        </div>
+    </div>
+</div>

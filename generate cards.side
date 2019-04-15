@@ -1,0 +1,764 @@
+{
+  "id": "de985c52-9cce-4ed6-a35b-f9c2b1ef9cd8",
+  "version": "2.0",
+  "name": "generate cards",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "bc6ed058-d06f-4284-9623-092bbc3399be",
+    "name": "new card",
+    "commands": [{
+      "id": "95ac8483-6728-49cc-a584-0774e1fe2a1d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba518637-3461-4e86-81d6-6a86e5d19f1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d1dc97-dd05-4f6e-986d-49fd7ed5ec63",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "bbeaf597-4bf2-4a78-bc9c-a37c409428b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41dcfddb-9e20-4e4f-94e1-417c7dc22bfe",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "bfc259f6-7e52-4315-881c-0a64a04ab2a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92aecda9-f17a-42c6-9662-d40a675af0d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fde96677-298a-46f6-a934-bafcd14c850c",
+    "name": "new card (1)",
+    "commands": [{
+      "id": "cfde1e54-c10c-4145-bfa8-4c9199824297",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c48f054-c106-4863-8ac1-dd5ed538a92c",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe4905a6-b9e8-4f2a-9c51-8bdc3cfb7999",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "0519aa7f-d7dd-4645-802b-6829f90a37bd",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ceb62c1-176e-4f7e-832e-5d3aaa5ea8ca",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "b76ad3dc-6fbb-4ffc-b893-a1cd3daa81ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a337404d-55a7-4ef1-a871-7b70a570ecc4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9a6c8a78-1f44-4c42-a99f-8ac19c6b7419",
+    "name": "new card (1) (1)",
+    "commands": [{
+      "id": "b005c7e4-3ad6-4e38-aac6-386395b84bf4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "909f0e7e-e1a7-46f7-b046-4027a5818e18",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee90792f-f687-4ad5-861c-9639bea92add",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "0fe35057-f24d-4276-a4da-ad918528dce1",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765d433b-c17b-4c0a-879c-f460c36ec652",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "33a0f851-4904-4266-bab3-dcb9fb151fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a21e7cd-9ce9-4caf-9f87-8a118e60304d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a99dc6f9-2daa-435f-9d82-6e3768f9c8ee",
+    "name": "new card (2)",
+    "commands": [{
+      "id": "00fe54c9-df69-4553-801e-e18605fd7478",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "754f8cc5-638b-4d72-9bec-e515e694484a",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dbd8d5-cba2-4c1a-b808-b3ee917118d0",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "f4c4519a-397b-482e-ab79-6b8e9a9d0790",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b8fe6b2-e515-4145-b8af-3dd8405ac924",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "f7bf5a69-ed4c-4c0f-9d4e-f32ef0df9501",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec04a039-e988-47fa-b970-1e613aa567ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a8378e86-1118-45f6-9b2b-4a1d9fe1f469",
+    "name": "new card (3)",
+    "commands": [{
+      "id": "7896b70c-0681-49f7-ba87-8739bd1563a3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "823f9422-4b4a-4ae5-bc01-6ef69d433e25",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d0618a-74e8-43fb-889b-47138bae0b3d",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "35fa525d-f1c6-4bb3-835e-f1879a74b105",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db699807-c247-4af4-a524-e8d881bfe673",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "cb4afc2e-7249-4c88-81ad-ba682ccf8f30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e211cff-3a2c-49b5-a30b-7df76a618b77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1fa1096a-77e7-49d6-be05-3bc6d03fdd49",
+    "name": "new card (4)",
+    "commands": [{
+      "id": "409efa7f-02c7-45e5-8411-4e4470eaca1d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf46daae-33c8-4364-804a-28232b5727b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0464a748-6765-4672-bc3e-6424c7cb0477",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "fdcf6d4b-f3f6-4928-8af1-3054cec75be9",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4af32058-576a-4ba9-a9cd-816c7f209adc",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "18a6eb5f-bcf6-4515-9fa4-b2cb98788e01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b69e98-684e-4da3-96b0-deeccc96c620",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1c920f2e-3ed0-4e6f-b789-e4f18cc17230",
+    "name": "new card (5)",
+    "commands": [{
+      "id": "47dc7275-9a59-4d37-9b29-9195ed60dd53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c2f2194-8dd2-4f15-b7ba-87421c1fb748",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "161873f8-7e33-4058-838a-5785f0d7e811",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "df1402b7-5830-446c-8d2a-9e8f62551ef5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1769e8cc-8907-4617-81ba-7e21a0fae29b",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "aba30864-8565-44d6-a83c-cd61b23fe793",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "401c44ac-6edf-41e5-806e-3ccaa037f1e6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d567f6ec-6e6c-491d-b7a5-2d469d617fef",
+    "name": "new card (6)",
+    "commands": [{
+      "id": "4825ad75-9582-4ba1-9cb6-30aeec9e6417",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10aa3692-835c-47c1-acc2-c4a72208d061",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3728128-4fba-4810-aa24-79981288261c",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "bcdb004e-119f-45a0-a765-ae3f69777d88",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5341273f-f810-42f7-aea3-fcf6a496cc43",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "51ad5acc-b8ed-48aa-96bd-3c982d3b4733",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb25ff9a-e180-436e-8674-aea6a27cb2c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "09713376-b41c-4da1-957b-8b70c6530cbd",
+    "name": "new card (7)",
+    "commands": [{
+      "id": "59587c07-24ad-4017-bcfb-45bc043c8ca2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53fe0290-a12a-4d37-af6a-761dcbb257bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3003d1e5-2ef9-446e-916b-35d7f80683b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=Title",
+      "targets": [
+        ["name=Title", "name"],
+        ["css=.ng-untouched:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='Title']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "dfkdoff"
+    }, {
+      "id": "51c5cda5-bc8a-4289-a006-b7a8096df1c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7e53ad-24de-4496-bd2f-405a1e9c460f",
+      "comment": "",
+      "command": "type",
+      "target": "name=Description",
+      "targets": [
+        ["name=Description", "name"],
+        ["css=.ng-untouched:nth-child(7)", "css:finder"],
+        ["xpath=//textarea[@name='Description']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "lmdvdmv"
+    }, {
+      "id": "33f181b6-8799-46d6-b2f9-a2897edbb899",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fcdde76-f000-4da5-9dd1-f51ad9d6ca09",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addButton",
+      "targets": [
+        ["css=.addButton", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Task')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c79d8add-7b50-402c-9a33-6f0498596b79",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bc6ed058-d06f-4284-9623-092bbc3399be"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}
