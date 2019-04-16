@@ -11,6 +11,7 @@ import { AnimateNewTaskDirective } from './directives/newTask.directive';
 import { EditTaskDirective } from './directives/edit.directive';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FilterTaskComponent } from './filter-task/filter-task.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     ListTaskComponent, 
     AnimateDeleteDirective,
     AnimateNewTaskDirective,
-    EditTaskDirective
+    EditTaskDirective,
+    FilterTaskComponent
   ],
   imports: [
     BrowserModule,

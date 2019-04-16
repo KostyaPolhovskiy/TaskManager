@@ -9,6 +9,7 @@ export class TaskDetailService {
   formData: TaskDetail;
   readonly rootURL = 'http://localhost:3000';
   list : TaskDetail[];
+  tempList: TaskDetail[];
 
   constructor(private http: HttpClient) { }
 
@@ -25,7 +26,10 @@ export class TaskDetailService {
   refreshList(){
     this.http.get(this.rootURL + '/Task')
     .toPromise()
-    .then(res => this.list = res as TaskDetail[])
+    .then(res => {
+      this.list = res as TaskDetail[]; 
+      this.tempList = res as TaskDetail[];
+    })
   }
 
 }

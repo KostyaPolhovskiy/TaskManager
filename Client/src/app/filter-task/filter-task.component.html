@@ -1,0 +1,19 @@
+<div class="container-filter">
+    <h3>Filter by</h3>
+    <div class=radio-button>
+        <input type="radio" id="filtTest0" name="filterBy" (click)="filterTask('')">
+        <label for="filtTest0" class="radio-label">All</label>
+    </div>
+    <div class=radio-button>
+        <input type="radio" id="filtTest1" name="filterBy" (click)="filterTask('In Planning')">
+        <label for="filtTest1" class="radio-label">In Planning</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="filtTest2" name="filterBy" (click)="filterTask('Started')">
+        <label for="filtTest2" class="radio-label">Started</label>
+    </div>
+    <div class="radio-button">
+        <input type="radio" id="filtTest3" name="filterBy" (click)="filterTask('Completed')">
+        <label for="filtTest3" class="radio-label">Completed</label>
+    </div>
+</div>

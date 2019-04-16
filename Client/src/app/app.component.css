@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    color: #666;
+    word-wrap: break-word;
+    font-family: Tahoma;
+}
+
+body {
+    background-color: #d4ddf8;
+    margin: 0;
+}
+
+.task-add {
+    width: 300px;
+    height: 100vh;
+    padding: 0px 10px 0px 10px;
+    background-color: #c1ccf1;
+    position: fixed;
+}

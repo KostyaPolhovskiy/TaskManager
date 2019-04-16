@@ -11,7 +11,7 @@
             <input type="date" name="Deadline" [(ngModel)]="service.formData.Deadline" placeholder="Your deadline..">
 
             <label>Info</label>
-            <textarea name="Description" required [(ngModel)]="service.formData.Description" placeholder="Write something.."></textarea>
+            <textarea name="Description" required [(ngModel)]="service.formData.Description" maxlength='800' placeholder="Write something.."></textarea>
 
             <div class="addFileButton">
                 <input type="hidden" role="uploadcare-uploader" id="uploader" name="Files" [(ngModel)]="service.formData.Files" data-multiple="true" />
